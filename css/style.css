@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body.register {
+    background-image: url(../assets/Doctor-rafiki.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 4% 50%;
+    background-color: #a6dcef;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body.home {
+    background-color: #a6dcef;
+    margin: 0;
+    padding: 0;
+}
+
+body.booking {
+    background-color: #a6dcef;
+    background-image: url(../assets/Doctor-amico.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 4% 100px;
+    margin: 0;
+    padding: 0;
+}
+/* navbar*/
+
+.header-nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #4364F7,#52BFFD) ;
+    width: 100%;
+    height: 75px;
+    margin: 0;
+}
+
+.blankbox{
+    height: 150px;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    list-style-type: none;
+    padding: 0;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 3%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+}
+  
+li a {
+    display: flex;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: width 0.5s, height 0.5s;
+    margin: 0;
+
+}
+  
+li a:hover:not(.active) {
+    background-color: rgba(117, 117, 117, 0.425);
+    color: #fff;
+    border-radius: 15px 15px;
+}
+
+li a.active {
+
+    border-radius: 15px 15px;
+    background-color:#1b6ca8;
+    color: white;
+}
+
+/*form*/
+
+.form-container{
+    position: relative;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 45%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    background-color: #1b6ca8;
+    border-radius: 5px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.63)
+}
+
+.form-container h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+.formulir {
+    background-color:white;
+    border: 1px solid rgb(189, 199, 216);
+    border-radius:3px;
+    font-family: 'Montserrat';
+    font-size:15px;
+    padding-top: 7px;
+    padding-bottom:7px;
+    padding-right:5px;
+    padding-left: 7px;
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+.tanggal {
+    font-family: 'Montserrat';
+    font-size:15px;
+    color: white;
+}
+
+.button {
+    background-image: linear-gradient(to right, #4364F7,#52BFFD) ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+/* Home */
+
+.header-pic{
+    background-image: url(../assets/Doctors-pana.svg);
+    background-size: 50%;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+}
+
+.blankbox-header{
+    height: 55vh;
+}
+.header-pic h1{
+    font-family: monospace;
+    font-size: 32px
+}
+
+
+#booking-daftar{
+    height: auto;
+    padding-bottom: 7%;
+    background-color: #84a9ac;
+}
+
+.booking-form{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    padding-top: 2%;
+    background-color: #eeeeee;
+    border-radius: 5px 50px 50px;;
+}
+
+.booking-form p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0;
+}
+.booking-form h1{
+    padding-top: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom:14px
+}
+
+.qr-code{
+    height: 50%;
+    width: 50%;
+    position: relative;
+    justify-items: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.button-cancel{
+    background-image: linear-gradient(to right, #d8345f,#e58a8a) ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
